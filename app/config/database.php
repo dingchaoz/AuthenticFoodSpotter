@@ -51,7 +51,7 @@ return array(
 			'host'      => '127.0.0.1', // Host Name
 			'database'  => 'yelp', // Database Name
 			'username'  => 'root', // Database Username
-			'password'  => 'scut111', // Database Password
+			'password'  => '', // Database Password
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

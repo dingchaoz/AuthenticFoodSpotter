@@ -1,0 +1,213 @@
+@media only screen and (max-width: 768px){
+	
+	.small-nav{
+		display: none;
+	}
+
+	.custom-nav{
+		margin-left: -10px;
+	}
+
+	.logo{
+		margin-left: -70px;
+	}
+
+	.searchicon{
+		margin-left: -20px;
+		margin-top: -7px;
+	}
+
+	.search-nav{
+		margin-left: -10px;
+	}
+
+	.login{
+		margin-top: -60px;
+		margin-left: -80px;
+	}
+
+	.login-1{
+		margin-top: -60px;
+		margin-left: 0px;
+	}
+
+	.dropdownicon{
+		display: block;
+		margin-top: -40px;
+		margin-left: 30px;
+	}
+
+	.dropdown-toggle{
+		margin-left: 38px;
+		margin-top: -58px;
+	}
+
+	.blueimp-gallery .modal-dialog {
+	    right: auto;
+	    left: auto;
+		width: auto;
+	    max-width: 900px;
+	    padding-left: 5%;
+	    padding-right: 5%;
+  	}
+
+  .big .thumbnail:first-of-type{
+		transform:scale(1.0);
+		-ms-transform:scale(1.0); /* IE 9 */
+	    -moz-transform:scale(1.0); /* Firefox */
+	    -webkit-transform:scale(1.0); /* Safari and Chrome */
+	    -o-transform:scale(1.0);
+	}
+
+	.big .thumbnail:first-of-type img{
+		width: 100%;
+	}
+
+	.no-photo-bg{
+		transform:scale(1.0);
+		-ms-transform:scale(1.0); /* IE 9 */
+	    -moz-transform:scale(1.0); /* Firefox */
+	    -webkit-transform:scale(1.0); /* Safari and Chrome */
+	    -o-transform:scale(1.0);
+	}
+
+	.img_gallery{
+		padding-left:0px; 
+	}
+
+	.message-content input{
+		margin-left: 20px;
+	}
+
+	.dashboard-review-date{
+		margin:0px;
+	}
+
+
+
+	.dashboard-review-info{
+		margin:0px;
+		padding-left:0px;
+	}
+
+	.dashboard-right-column{
+		margin-top: 10px;
+		padding: 5px;
+	}
+
+	.dashboard-pic-caption{
+		width: 82%;
+	}
+
+	.dashboard-time{
+		padding: 0px;
+		font-size: 10px;
+	}
+
+	.nav-pills{
+		font-size: 9px;
+	}
+
+	.received-message{
+		font-size: 12px;
+	}
+
+	.user-profile-list{
+		border-bottom: 1px solid #eee;
+		border-right: none;
+	}
+
+	.search-no-of-reviews{
+		padding: 0px;
+	}
+
+	.search-header h2{
+		font-size: 20px;
+	}
+
+	.search-single-profile{
+		padding-bottom: 10px;
+	}
+
+	.friends-search-proname{
+		font-size: 12px;
+	}
+
+	.viewBusinesspage-container{
+		padding-left:40px;
+		padding-right:40px;
+	}
+
+	.viewBusiness-bottom-wrap{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.thumbnail-1:hover, .thumbnail-2:hover, .thumbnail-3:hover, .thumbnail-4:hover{
+		transfom:none;
+		-ms-transform:none; /* IE 9 */
+	    -moz-transform:none; /* Firefox */
+	    -webkit-transform:none; /* Safari and Chrome */
+	    -o-transform:none; /* Opera */
+	}
+
+	.viewBusinesspage-belownav .buttons a{
+		margin-bottom: 10px;
+	}
+
+	.thumbnail-3photo .btn-group{
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-left: 25%;
+	}
+
+	.thumbnail-2photo .btn-group{
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-left: 25%;
+	}
+
+	.thumbnail-1photo .btn-group{
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-left: 25%;
+	}
+
+	.viewBusiness-bottom-wrap{
+		margin-top: 0px;
+	}
+
+	.best-of-elp-nav-review-propic{
+		padding: 0px;
+	}
+
+	.best-of-elp-nav-reviews p{
+		font-size: 10px;
+	}
+
+}
+
+
+@media only screen and (max-width: 992px){
+	
+	.friends-search-proname{
+		font-size: 12px;
+	}
+
+	.search-single-profile{
+		padding-bottom: 10px;
+	}
+
+	.welcome-container{
+		width: 90%;
+		padding-left: 10%;
+	}
+
+	.best-of-elp-nav-review-propic{
+		padding: 0px;
+	}
+
+	.best-of-elp-nav-review-pic{
+		border-bottom: 0px;
+	}
+}

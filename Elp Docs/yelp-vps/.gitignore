@@ -1,0 +1,11 @@
+/bootstrap/compiled.php
+/vendor
+/public/uploads
+/build/yelp-vps
+/build/yelp-shared-hosting
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db

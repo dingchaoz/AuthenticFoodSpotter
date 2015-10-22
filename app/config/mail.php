@@ -15,7 +15,8 @@ return array(
 	|
 	*/
 
-	'driver' => 'mandrill',
+	//'driver' => 'mandrill',
+	'driver' => 'smtp',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,8 +29,9 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp.mailgun.org',
-
+	//'host' => 'smtp.mailgun.org',
+	//'host' => 'mailrelay.cummins.com',
+	'host' => 'smtp.gmail.com',
 	/*
 	|--------------------------------------------------------------------------
 	| SMTP Host Port
@@ -54,7 +56,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => '', 'name' => ''),
+	'from' => array('address' => 'dingchaoie@gmail.com', 'name' => 'Better than Yelp'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +82,7 @@ return array(
 	|
 	*/
 
-	'username' => null,
+	'username' => 'dingchaoie@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +95,8 @@ return array(
 	|
 	*/
 
-	'password' => null,
+	//'password' => 'tbN1dcsgium8',
+	'password' => 'tbN1dcsgium8',
 
 	/*
 	|--------------------------------------------------------------------------

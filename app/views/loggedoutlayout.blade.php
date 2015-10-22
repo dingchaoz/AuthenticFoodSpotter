@@ -13,6 +13,31 @@
   </head>
   <body>
 
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '866706236754363',
+        xfbml      : true,
+        version    : 'v2.5'
+      });
+    };
+
+    (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <div
+          class="fb-like"
+          data-share="true"
+          data-width="450"
+          data-show-faces="true">
+  </div>
+
   <!-- Navbar Starts -->
   <nav class="navbar navbar-inverse" role="navigation">
     <a href="{{URL::route('dashboard')}}"><img src="{{ asset(Image::path('/img/header_logo.png', 'resizeCrop', 160, 70)) }}" style="margin-left:45%;"></a>
@@ -65,4 +90,6 @@
     </center>
   </div>
 </body>
+
+
 </html>

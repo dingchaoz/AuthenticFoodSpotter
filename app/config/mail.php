@@ -56,7 +56,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'dingchaoie@gmail.com', 'name' => 'Better than Yelp'),
+	'from' => array('address' => 'obama@gmail.com', 'name' => 'Better than Yelp'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -95,8 +95,7 @@ return array(
 	|
 	*/
 
-	//'password' => 'tbN1dcsgium8',
-	'password' => 'tbN1dcsgium8',
+	//'password' => '',
 
 	/*
 	|--------------------------------------------------------------------------

@@ -3,6 +3,7 @@
 /**
  * @see \Illuminate\Routing\UrlGenerator
  */
+
 class URL extends Facade {
 
 	/**
